@@ -12,5 +12,5 @@ function Card(props) {
         <Body comment={props.commentObject.comment}/>
         </>
     )
-
+}
     export default Card;

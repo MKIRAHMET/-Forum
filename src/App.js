@@ -6,10 +6,11 @@ function App()  {
   return (
     <>
   {comments.map(comment => {
-    <Card commentObject={comment} />
-  ))}
-    </>
-  );
-  };
+    return <Card commentObject={comment} />
+  })}
+  </>
+);
+}
+
 
   export default App;
